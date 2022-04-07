@@ -22,8 +22,13 @@ and add this in the `.env` file:
 ```
 export FLASK_APP=dashapp
 export FLASK_ENV=development
-export DATABASE_URL=sqlite:///${PWD}/app.db
+export DATABASE_URL=postgres://ulyvpgfa:RPwwMCrTaQdpjCBGR_m52U_2Yv1QSTTr@ruby.db.elephantsql.com/ulyvpgfa
 export SECRET_KEY=secret_key_change_as_you_wish_make_it_long_123
+```
+
+to Run:
+```
+flask run
 ```
 
 Then build and run in detached mode with [`docker-compose`](https://docs.docker.com/compose/reference/up/) (you might need to `chmod +x entrypoint.sh` before running docker compose):
