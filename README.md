@@ -7,7 +7,7 @@ An example of a seamless integration of a Dash app into an existing Flask app ba
 Clone the repo:
 
 ```
-git clone https://github.com/okomarov/dash_on_flask
+git clone https://github.com/mdylan2/dash_on_flask.git
 ```
 
 Setup some environment variables:
